@@ -42,12 +42,9 @@
   }
 }
 
-@include font-face(Montserrat, 'fonts/Montserrat-Regular');
+@include font-face(Avenir, '../font/Avenir/AvenirNext-Regular');
+@include font-face(Avenir_Bold, '../font/Avenir_Bold/AvenirNext-Bold');
 
-/* Font Weights  */
-$light: 300 !default;
-$regular: 400 !default;
-$bold: 600 !default;
 
 $default-size: 16 !default;
 $font-size: ($default-size * 1px) !default;
