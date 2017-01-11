@@ -9,13 +9,15 @@ $blue: #0072ff;
 
 body {
   font-family: 'Avenir';
-  background: #000;
+  background: $easeBlack;
   overflow-x: hidden;
 }
 
 span,
 p,
 b,
+li,
+a,
 h1,
 h2,
 h3,
@@ -40,6 +42,10 @@ h6 {
 
 .container {
   padding: 15px 15px 35px;
+
+  @include breakpoint(medium) {
+    padding: 25px 25px 45px;
+  }
 }
 
 .blood_block {
@@ -50,10 +56,17 @@ h6 {
   padding: 10px 20px;
   text-align: left;
 
+  @include breakpoint(medium) {
+    width: 220px;
+    padding: 12px 25px;
+    font-size: 20px;
+  }
+
   &:before {
-    content: url(../img/other/blood.png);
+    content: '';
     position: absolute;
     display: block;
+    background: url('../img/other/blood.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -69,5 +82,19 @@ h6 {
 
   .bold {
     color: $white;
+  }
+}
+
+
+.logo {
+  display: inline-block;
+  max-width: 90px;
+  width: 100%;
+  vertical-align: middle;
+  margin-right: 5px;
+
+  @include breakpoint(medium) {
+    max-width: 110px;
+    margin-right: 15px;
   }
 }

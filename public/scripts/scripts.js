@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var sync1 = $("#sync1");
     var sync2 = $("#sync2");
-    var slidesPerPage = 7; //globaly define number of elements per page
+    var slidesPerPage = 5; //globaly define number of elements per page
     var syncedSecondary = true;
 
     sync1.owlCarousel({
@@ -82,5 +82,14 @@ $(document).ready(function() {
     });
     $(".toggle_menu").click(function() {
         $('.fullscreen-navigation').toggleClass("open");
+    });
+
+    $(".shot_movie").click(function () {
+        $(".pop_up").fadeIn(300);
+        positionPopup();
+    });
+
+    $(".pop_up > .movie_cross, .pop_up").click(function () {
+        $(".pop_up").fadeOut(300);
     });
 });

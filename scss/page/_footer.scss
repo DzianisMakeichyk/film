@@ -1,0 +1,37 @@
+footer {
+  background: url('../img/footer_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.pull_left_footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+
+  .footer_point {
+    flex: 1 1 50%;
+    padding-bottom: 15px;
+
+    > span {
+      display: block;
+      padding-bottom: 15px;
+    }
+
+    .footer_point_one {
+      font-size: 14px;
+      padding-bottom: 7px;
+    }
+  }
+}
+
+.pull_right_footer {
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+}

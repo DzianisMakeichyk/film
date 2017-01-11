@@ -1,0 +1,135 @@
+.pop_up {
+  position: absolute;
+  display: none;
+  width: 100%;
+  z-index: 1;
+  background: $middleBlack;
+  top: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+  }
+}
+
+.movie_cross {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  fill: $bown;
+  width: 20px;
+  height: 20px;
+}
+
+.pop_up_left {
+  padding-right: 35px;
+
+  .pop_up_image {
+    max-width: 220px;
+  }
+
+  .pop_up_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 8px;
+
+    .pop_up_view {
+      background: $blodRed;
+      padding: 10px;
+      width: 47%;
+      text-transform: uppercase;
+
+      @include breakpoint(large) {
+        font-family: Avenir_Bold;
+      }
+    }
+  }
+}
+
+.pop_up_right {
+  font-size: 14px;
+
+  .movie_name_point {
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+
+  .movie_description {
+    padding-bottom: 20px;
+
+    > span {
+      padding-right: 10px;
+
+      &:not(:last-child) {
+        &:before {
+            right: 4px;
+          }
+      }
+    }
+  }
+
+  .movie_name {
+    padding-bottom: 15px;
+
+    .movie_obsada {
+      display: block;
+      padding-bottom: 5px;
+    }
+    > span {
+      padding-right: 20px;
+      &:not(:last-child) {
+        &:before {
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  .movie_short {
+    padding-bottom: 20px;
+  }
+
+  .movie_press {
+    padding-bottom: 5px;
+  }
+}
+
+.movie_skin {
+  padding: 25px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .movie_skin_one {
+    flex: 1 1 25%;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding-right: 5px;
+  }
+}
+
+.white_sepo {
+  display: inline-block;
+  position: relative;
+
+  &:not(:last-child) {
+    &:before {
+      content: '';
+      position: absolute;
+      height: 80%;
+      width: 1px;
+      background: $white;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}

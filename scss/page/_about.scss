@@ -1,21 +1,27 @@
 .about {
   background: $easeBlack;
-
-  .about_block {
-    padding: 10px 15px;
-    text-align: left;
-
-  }
 }
 
 .about_box {
   display: flex;
   flex-direction: column;
 
+  @include breakpoint(medium) {
+    flex-direction: row;
+    padding-top: 30px;
+  }
+
   .about_fest {
+    display: block;
     width: 90%;
+    height: 100%;
     margin: 0 auto;
-    padding: 50px 0 20px ;
+    padding: 50px 0 20px;
+
+    @include breakpoint(medium) {
+      max-width: 250px;
+      padding-right: 25px;
+    }
   }
 
   .about_fest_text {
@@ -23,6 +29,11 @@
     margin: 0 auto;
     text-align: left;
     color: $white;
+
+    @include breakpoint(medium) {
+      font-size: 14px;
+      padding-top: 50px;
+    }
 
     >p {
       padding-bottom: 20px;
