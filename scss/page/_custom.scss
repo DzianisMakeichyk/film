@@ -1,22 +1,18 @@
 #sync1 .item {
-  background: #0c83e7;
-  padding: 80px 0px;
-  margin: 5px;
-  color: #FFF;
-  border-radius: 3px;
-  text-align: center;
+  display: block;
+  background: url("../img/bodom.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding:0;
+  height: 25vh;
 }
 #sync2 .item {
   background: #C9C9C9;
   padding: 10px 0px;
   margin: 5px;
   color: #FFF;
-  border-radius: 3px;
-  text-align: center;
   cursor: pointer;
-}
-#sync2 .item h1 {
-  font-size: 18px;
 }
 #sync2 .current .item {
   background: #0c83e7;
@@ -47,4 +43,14 @@
 }
 #sync1.owl-theme .owl-next {
   right: 10px;
+}
+.owl-prev,
+.owl-next {
+  display: none !important;
+  background: transparent !important;
+  fill: $bown;
+}
+
+#sync2 {
+  display: none;
 }

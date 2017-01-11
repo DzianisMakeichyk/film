@@ -1,4 +1,73 @@
+$white: #ffffff;
+$easeBlack: #0c0c0c;
+$hardBlack: #060606;
+$middleBlack: #0a0a0a;
+$middleBlackOne: #020202;
+$bown: #928f86;
+$blodRed: #910001;
+$blue: #0072ff;
+
 body {
   font-family: 'Avenir';
+  background: #000;
+  overflow-x: hidden;
 }
 
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: .3px;
+  color: $white;
+
+  &.bold {
+    font-family: Avenir_Bold;
+  }
+
+  &.red {
+    color: $blodRed
+  }
+
+  &.blue {
+    color: $blue;
+  }
+}
+
+.container {
+  padding: 15px 15px 35px;
+}
+
+.blood_block {
+  display: block;
+  position: absolute;
+  width: 180px;
+  background: $blodRed;
+  padding: 10px 20px;
+  text-align: left;
+
+  &:before {
+    content: url(../img/other/blood.png);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  &.top {
+  top: -20px;
+}
+
+  .bold {
+    color: $white;
+  }
+}

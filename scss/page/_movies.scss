@@ -1,0 +1,42 @@
+.movies {
+  position: relative;
+  background: $hardBlack;
+}
+
+.grid_movie {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 0;
+
+  .one_shot_movie {
+    position: relative;
+    width: 90%;
+    margin: 0 auto 35px;
+
+    .name_movie {
+      color: $white;
+      padding-bottom: 15px;
+    }
+
+    .shot_movie {
+      width: 100%;
+
+    }
+
+    &:before {
+      content: 'czytaj więcej';
+      position: absolute;
+      width: 107px;
+      right: -9px;
+      bottom: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: Avenir_Bold;
+      letter-spacing: .4px;
+      font-size: 10px;
+      color: $white;
+      background: $blodRed;
+      padding: 15px 10px;
+    }
+  }
+}

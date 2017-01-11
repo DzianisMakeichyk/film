@@ -1,0 +1,36 @@
+.cinema {
+  position: relative;
+  background: $middleBlack;
+  padding-bottom: 25px;
+}
+
+.cinema_city {
+  width: 90%;
+  margin: 0 auto;
+  padding: 35px 0 0;
+  color: $white;
+
+  .cinema_shot {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0 0;
+
+    .cinema_shot_name {
+      flex:1 1 60%;
+    }
+
+    .cinema_shot_img {
+      display: none;
+    }
+  }
+
+  .separator {
+    width: 80%;
+    height: 2px;
+    background: $blodRed;
+    margin: 10px auto 0;
+  }
+}

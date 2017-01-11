@@ -1,0 +1,37 @@
+.about {
+  background: $easeBlack;
+
+  .about_block {
+    padding: 10px 15px;
+    text-align: left;
+
+  }
+}
+
+.about_box {
+  display: flex;
+  flex-direction: column;
+
+  .about_fest {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0 20px ;
+  }
+
+  .about_fest_text {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    color: $white;
+
+    >p {
+      padding-bottom: 20px;
+    }
+
+    .about_movies {
+      display: block;
+      width: 100%;
+      padding-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.header_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  .pull_left {
+    flex: 1 1 60%;
+
+    .logo {
+      display: inline-block;
+      max-width: 90px;
+      width: 90px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .header_date {
+      position: relative;
+      display: inline-block;
+      font-size: 12px;
+      color: $white;
+
+      .bold {
+        &:before {
+          content: '';
+          position: absolute;
+          height: 80%;
+          width: 1px;
+          background: $white;
+          left: 30px;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+
+      span {
+        &:nth-child(2) {
+          padding-left: 7px;
+        }
+      }
+    }
+  }
+
+  .pull_right {
+  }
+}
+
+.fullscreen-navigation {
+  display: none;
+
+  &.open {
+    display: block;
+  }
+}
+
+.inner-wrap {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 45px);
+  background: $easeBlack;
+  left: 0;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  z-index: 100;
+  overflow: hidden;
+
+  ul {
+    color: $white;
+    text-align: center;
+    z-index: 101;
+    padding: 25% 0;
+
+    li {
+      padding-bottom: 10px;
+      font-size: 18px;
+    }
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+// Burger menu button
+.burger {
+  $width: 28px;
+  $thickness: 2px;
+
+  border: 0;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  color: $white;
+
+  border-bottom: $thickness solid currentColor;
+  width: $width;
+
+  transition: border-bottom 1s ease-in-out;
+  -webkit-transition: border-bottom 1s ease-in-out;
+
+  // Fix for extra space in Firefox
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  &:before {
+    content: "";
+    color: $white;
+    display: block;
+    border-bottom: $thickness solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+
+  &:after {
+    content: "";
+    color: $white;
+    display: block;
+    border-bottom: $thickness solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+
+  &.open {
+    border-bottom: $thickness solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+
+    &:before {
+      transform: rotate(-405deg) translateY(1px) translateX(-1px);
+      -webkit-transform: rotate(-405deg) translateY(1px) translateX(-1px);
+      transition: transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    &:after {
+      transform: rotate(405deg) translateY(-4px) translateX(-4px);
+      -webkit-transform: rotate(405deg) translateY(-4px) translateX(-4px);
+      transition: transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+  }
+}
