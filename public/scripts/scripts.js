@@ -84,7 +84,7 @@ $(document).ready(function() {
         $('.fullscreen-navigation').toggleClass("open");
     });
 
-    $(".shot_movie").click(function () {
+    $(".one_shot_movie").click(function () {
         $(".pop_up").fadeIn(300);
         positionPopup();
     });
