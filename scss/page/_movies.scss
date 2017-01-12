@@ -10,7 +10,20 @@
 
   @include breakpoint(medium) {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+
+  @include breakpoint(large) {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 65px 0 0;
+    justify-content: flex-start;
+  }
+
+  @include breakpoint(extralarge) {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 85px 0 0;
   }
 }
 
@@ -23,6 +36,18 @@
     display: block;
     width: 250px;
     margin: 0 auto 45px;
+  }
+
+  @include breakpoint(large) {
+    display: block;
+    width: 260px;
+    margin: 0 10px 65px;
+  }
+
+  @include breakpoint(extralarge) {
+    display: block;
+    width: 315px;
+    margin: 0 15px 85px;
   }
 
   .name_movie {

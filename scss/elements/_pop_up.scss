@@ -9,6 +9,10 @@
   right: 0;
   margin: 0 auto;
 
+  @include breakpoint(large) {
+    top: 45px;
+  }
+
   .container {
     position: relative;
     display: flex;
@@ -24,6 +28,16 @@
   fill: $bown;
   width: 20px;
   height: 20px;
+
+  @include breakpoint(large) {
+    width: 30px;
+    height: 30px;
+  }
+
+  @include breakpoint(extralarge) {
+    right: 55px;
+    top: 55px;
+  }
 }
 
 .pop_up_left {
@@ -31,6 +45,18 @@
 
   .pop_up_image {
     max-width: 220px;
+
+    @include breakpoint(large) {
+      max-width: 320px;
+    }
+  }
+
+  @include breakpoint(large) {
+    padding-right: 55px;
+  }
+
+  @include breakpoint(extralarge) {
+    padding-right: 80px;
   }
 
   .pop_up_buttons {
@@ -41,13 +67,20 @@
     font-size: 8px;
 
     .pop_up_view {
-      background: $blodRed;
+      background: $brow;
       padding: 10px;
       width: 47%;
       text-transform: uppercase;
 
+      &:hover {
+        background: $blodRed;
+      }
+
       @include breakpoint(large) {
         font-family: Avenir_Bold;
+        padding: 15px;
+        width: 49%;
+        font-size: 12px;
       }
     }
   }
@@ -56,13 +89,32 @@
 .pop_up_right {
   font-size: 14px;
 
+  @include breakpoint(large) {
+    max-width: 1065px;
+    font-size: 15px;
+    margin-left: 0;
+  }
+
   .movie_name_point {
     font-size: 22px;
     padding-bottom: 5px;
+
+    @include breakpoint(large){
+      font-size: 28px;
+      padding-bottom: 10px;
+    }
+
+    @include breakpoint(large){
+      font-size: 30px;
+    }
   }
 
   .movie_description {
     padding-bottom: 20px;
+
+    @include breakpoint(large) {
+      padding-bottom: 35px;
+    }
 
     > span {
       padding-right: 10px;
@@ -77,6 +129,10 @@
 
   .movie_name {
     padding-bottom: 15px;
+
+    @include breakpoint(large) {
+      padding-bottom: 35px;
+    }
 
     .movie_obsada {
       display: block;
@@ -94,10 +150,18 @@
 
   .movie_short {
     padding-bottom: 20px;
+
+    @include breakpoint(large) {
+      padding-bottom: 35px;
+    }
   }
 
   .movie_press {
     padding-bottom: 5px;
+
+    @include breakpoint(extralarge) {
+      padding-bottom: 8px;
+    }
   }
 }
 
@@ -107,12 +171,20 @@
   flex-direction: row;
   justify-content: space-between;
 
+  @include breakpoint(large) {
+    padding: 45px 0 0;
+  }
+
   .movie_skin_one {
     flex: 1 1 25%;
     display: inline-block;
     width: 20%;
     height: 100%;
     padding-right: 5px;
+
+    @include breakpoint(large) {
+      padding-right: 15px;
+    }
   }
 }
 

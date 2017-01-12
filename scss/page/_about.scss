@@ -11,6 +11,15 @@
     padding-top: 30px;
   }
 
+  @include breakpoint(large) {
+    padding-top: 60px;
+  }
+
+  @include breakpoint(extralarge) {
+    flex-direction: row;
+    padding-top: 100px;
+  }
+
   .about_fest {
     display: block;
     width: 90%;
@@ -21,6 +30,17 @@
     @include breakpoint(medium) {
       max-width: 250px;
       padding-right: 25px;
+    }
+
+    @include breakpoint(large) {
+      max-width: 310px;
+      padding-right: 35px;
+    }
+
+    @include breakpoint(extralarge) {
+      max-width: 365px;
+      padding-right: 45px;
+      margin: auto 0;
     }
   }
 
@@ -33,7 +53,20 @@
     @include breakpoint(medium) {
       font-size: 14px;
       padding-top: 50px;
+      line-height: 24px;
     }
+
+    @include breakpoint(large) {
+      font-size: 15px;
+      padding-top: 100px;
+      max-width: 1065px;
+    }
+
+    @include breakpoint(extralarge) {
+      padding-top: 120px;
+      margin-left: 0;
+    }
+
 
     >p {
       padding-bottom: 20px;

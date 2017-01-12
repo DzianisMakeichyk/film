@@ -1,16 +1,96 @@
 .contact {
   position: relative;
   background: $middleBlackOne;
+
+  .container {
+
+    .contact_box {
+      @include breakpoint(medium) {
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+        margin: 0 auto;
+        vertical-align: middle;
+      }
+
+      @include breakpoint(large) {
+        max-width: 860px;
+      }
+
+      @include breakpoint(extralarge) {
+        max-width: 1160px;
+      }
+    }
+  }
 }
 
 .contact_info {
   width: 90%;
   margin: 45px auto 5px;
 
+  @include  breakpoint(medium) {
+    width: 50%;
+    flex: 1 1 30%;
+  }
+
+  @include breakpoint(large) {
+    margin: 85px auto 15px;
+  }
+
+  @include breakpoint(extralarge) {
+    margin: 105px auto 15px;
+  }
+
   > p,
   a {
     display: block;
     font-size: 14px;
     padding-bottom: 15px;
+
+    @include breakpoint(medium) {
+      padding-bottom: 25px;
+    }
+
+    @include breakpoint(large) {
+      font-size: 18px;
+    }
+
+    @include breakpoint(extralarge) {
+      font-size: 20px;
+      padding-bottom: 40px;
+    }
   }
+
+  @include breakpoint(medium) {
+    > a {
+      padding-left: 8px;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  .blue {
+    display: inline-block;
+  }
+}
+
+.contact_icon {
+  display: none;
+
+  @include breakpoint(medium) {
+    display: block;
+    width: 250px;
+    height: 100%;
+    margin: auto auto 0;
+  }
+
+  @include breakpoint(large) {
+    width: 350px;
+  }
+}
+
+.icon_mail {
+  display: inline-block;
 }

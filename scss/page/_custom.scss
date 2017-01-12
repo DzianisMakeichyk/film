@@ -10,6 +10,10 @@
   @include breakpoint(medium) {
     height: 60vh;
   }
+
+  @include breakpoint(large) {
+    height: 100vh;
+  }
 }
 
 #sync2 .item {
@@ -39,12 +43,27 @@
   margin-top: -20px;
   position: absolute;
   top: 37%;
+  @include breakpoint(large) {
+    top: 38%;
+  }
 }
 #sync1.owl-theme .owl-prev {
   left: 10px;
+@include breakpoint(medium-lg) {
+  left: 20px;
+}
+@include breakpoint(large) {
+  left: 50px;
+}
 }
 #sync1.owl-theme .owl-next {
   right: 10px;
+@include breakpoint(medium-lg) {
+  right: 20px;
+}
+@include breakpoint(large) {
+  right: 50px;
+}
 }
 .owl-prev,
 .owl-next {
@@ -81,11 +100,20 @@
       content: '';
       position: absolute;
       display: block;
-      width: 94%;
-      height: 100%;
+      width: 95%;
+      height: 95%;
       background: $middleBlackOne;
       opacity: .5;
       z-index: 1;
+
+      @include breakpoint(large) {
+        width: 97%;
+      }
+
+      @include breakpoint(extralarge) {
+        width: 100%;
+        height: 98%;
+      }
     }
   }
 
@@ -123,12 +151,28 @@
         background: $blodRed;
         padding: 7px 5px;
         z-index: 1;
+
+        @include breakpoint(large) {
+          width: 100px;
+          font-size: 9px;
+          padding: 15px 5px;
+
+        }
+
+        @include breakpoint(extralarge) {
+          width: 150px;
+          font-size: 11px;
+          padding: 18px 5px;
+          right: -10px;
+          bottom: 45px;
+        }
       }
     }
   }
 }
-
-.owl-nav,
-.owl-dots {
-  display: none;
+#sync2 {
+  .owl-nav,
+  .owl-dots {
+    display: none;
+  }
 }

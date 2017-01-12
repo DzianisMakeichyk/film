@@ -10,9 +10,26 @@
     padding: 12px 25px;
   }
 
+  @include breakpoint(medium-lg) {
+    position: absolute;
+    z-index: 100;
+    padding: 15px 25px;
+  }
+
+  @include breakpoint(large) {
+    padding: 15px 40px;
+  }
+
+  @include breakpoint(extralarge) {
+    padding: 15px 50px;
+  }
+
   .pull_left {
     flex: 1 1 60%;
 
+    @include breakpoint(medium-lg) {
+      flex: 1 1 30%;
+    }
 
     .header_date {
       position: relative;
@@ -22,6 +39,18 @@
 
       @include breakpoint(medium) {
         font-size: 14px;
+      }
+
+      @include breakpoint(medium-lg) {
+        font-size: 16px;
+      }
+
+      @include breakpoint(large) {
+        font-size: 18px;
+      }
+
+      @include breakpoint(extralarge) {
+        font-size: 20px;
       }
 
       .bold {
@@ -38,6 +67,18 @@
 
           @include breakpoint(medium) {
             left: 33px
+          }
+
+          @include breakpoint(medium) {
+            left: 38px
+          }
+
+          @include breakpoint(large) {
+            left: 43px
+          }
+
+          @include breakpoint(extralarge) {
+            left: 48px
           }
         }
       }
@@ -57,6 +98,10 @@
 .fullscreen-navigation {
   display: none;
 
+  @include breakpoint(medium-lg) {
+    display: block;
+  }
+
   &.open {
     display: block;
   }
@@ -74,10 +119,21 @@
   z-index: 100;
   overflow: hidden;
 
+  @include breakpoint(medium-lg) {
+    position: relative;
+    background: transparent;
+    height: auto;
+    top: 2px;
+  }
+
   ul {
     text-align: center;
     z-index: 101;
     padding: 25% 0;
+
+    @include breakpoint(medium-lg) {
+      padding: 0;
+    }
 
     li {
       padding-bottom: 10px;
@@ -86,6 +142,16 @@
       @include breakpoint(medium) {
         font-size: 20px;
         padding-bottom: 15px;
+      }
+
+      @include breakpoint(medium-lg) {
+        display: inline-block;
+        padding: 0 20px;
+      }
+
+      @include breakpoint(large) {
+        display: inline-block;
+        padding: 0 25px;
       }
     }
   }
@@ -155,5 +221,9 @@
       transition: transform 0.5s ease-in-out;
       -webkit-transition: -webkit-transform 0.5s ease-in-out;
     }
+  }
+
+  @include breakpoint(medium-lg) {
+    display: none;
   }
 }

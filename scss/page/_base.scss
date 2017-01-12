@@ -6,6 +6,7 @@ $middleBlackOne: #020202;
 $bown: #928f86;
 $blodRed: #910001;
 $blue: #0072ff;
+$brow: #300404;
 
 body {
   font-family: 'Avenir';
@@ -46,6 +47,14 @@ h6 {
   @include breakpoint(medium) {
     padding: 25px 25px 45px;
   }
+
+  @include breakpoint(large) {
+    padding: 35px 40px 80px;
+  }
+
+  @include breakpoint(extralarge) {
+    padding: 35px 50px 100px;
+  }
 }
 
 .blood_block {
@@ -60,6 +69,18 @@ h6 {
     width: 220px;
     padding: 12px 25px;
     font-size: 20px;
+  }
+
+  @include breakpoint(large) {
+    width: 320px;
+    padding: 15px 35px;
+    font-size: 30px;
+  }
+
+  @include breakpoint(extralarge) {
+    width: 400px;
+    padding: 20px 45px;
+    font-size: 40px;
   }
 
   &:before {
@@ -96,5 +117,19 @@ h6 {
   @include breakpoint(medium) {
     max-width: 110px;
     margin-right: 15px;
+  }
+
+  @include breakpoint(medium-lg) {
+    max-width: 150px;
+  }
+
+  @include breakpoint(large) {
+    max-width: 220px;
+    margin-right: 30px;
+  }
+
+  @include breakpoint(extralarge) {
+    max-width: 270px;
+    margin-right: 40px;
   }
 }

@@ -4,34 +4,78 @@ footer {
   background-position: center;
   background-size: cover;
   padding: 20px 0;
+
+  .container {
+    @include breakpoint(large) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
 }
 
 .pull_left_footer{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 15px;
+
+  @include breakpoint(large) {
+    margin: auto auto auto 0;
+    width: 50%;
+  }
 
   .footer_point {
     flex: 1 1 50%;
     padding-bottom: 15px;
 
+    @include breakpoint(large) {
+      flex: 1 1 25%;
+    }
+
     > span {
       display: block;
       padding-bottom: 15px;
+
+      @include breakpoint(large) {
+        padding-bottom: 25px;
+        font-size: 20px;
+      }
+
+      @include breakpoint(extralarge) {
+        padding-bottom: 30px;
+        font-size: 24px;
+      }
     }
 
     .footer_point_one {
       font-size: 14px;
       padding-bottom: 7px;
+
+      @include breakpoint(large) {
+        font-size: 15px;
+      }
+
+      &:hover {
+        font-family: Avenir_Bold;
+      }
     }
   }
 }
 
 .pull_right_footer {
+  @include breakpoint(large) {
+    margin: auto 0 auto auto;
+  }
+
   .logo {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
+
+    @include breakpoint(medium) {
+      max-width: 180px
+    }
   }
 }

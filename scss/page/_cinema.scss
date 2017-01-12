@@ -10,20 +10,73 @@
   padding: 35px 0 0;
   color: $white;
 
+  @include breakpoint(large) {
+    width: 70%;
+    padding: 85px 0 0;
+  }
+
+  @include breakpoint(extralarge) {
+    padding: 105px 0 0;
+  }
+
   .cinema_shot {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
     text-align: left;
     padding: 10px 0 0;
 
+    @include breakpoint(large) {
+      width: 90%;
+    }
+
     .cinema_shot_name {
-      flex:1 1 60%;
+      flex: 1 1 60%;
+
+      @include breakpoint(medium) {
+        flex: 1 1 0;
+      }
+
+      @include breakpoint(large) {
+        flex: 0 0 200px;
+      }
+    }
+
+    .cinema_shot_date {
+      @include breakpoint(medium) {
+        flex: 1 1 20%;
+      }
     }
 
     .cinema_shot_img {
       display: none;
+
+      @include breakpoint(medium) {
+        display: block;
+        width: 100px;
+        height: 100%;
+        vertical-align: middle;
+      }
+
+      @include breakpoint(large) {
+        width: 130px;
+      }
+
+      @include breakpoint(extralarge) {
+        width: 170px;
+      }
+      &.cc {
+        @include breakpoint(large) {
+          width: 90px;
+        }
+
+        @include breakpoint(extralarge) {
+          width: 110px;
+        }
+    }
+
     }
   }
 
@@ -32,5 +85,14 @@
     height: 2px;
     background: $blodRed;
     margin: 10px auto 0;
+
+    @include breakpoint(medium) {
+      margin-bottom: 15px;
+    }
+
+    @include breakpoint(large) {
+      width: 90%;
+      margin: auto;
+    }
   }
 }
