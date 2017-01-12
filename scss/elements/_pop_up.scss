@@ -1,9 +1,10 @@
 .pop_up {
-  position: fixed;
+  position: absolute;
   display: none;
   width: 100%;
+  height: 100%;
   z-index: 1;
-  background: $middleBlack;
+  background: $hardBlack;
   top: 35px;
   left: 0;
   right: 0;
@@ -45,7 +46,7 @@
 }
 
 .pop_up_left {
-  margin: auto auto 25px;
+  margin: 0 auto 25px;
 
   @include breakpoint(medium) {
     padding-right: 35px;

@@ -99,7 +99,7 @@
       content: '';
       position: absolute;
       display: block;
-      width: 100%;
+      width: calc(100% - 25px);
       height: 100%;
       background: $middleBlackOne;
       opacity: .5;

@@ -5,6 +5,7 @@
 
 .grid_movie {
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 35px 0 0;
 
@@ -53,6 +54,7 @@
   .name_movie {
     color: $white;
     padding-bottom: 15px;
+    min-height: 60px;
   }
 
   .shot_movie {

@@ -83,7 +83,7 @@ $(document).ready(function() {
     $(".toggle_menu").click(function() {
         $('.fullscreen-navigation').toggleClass("open");
     });
-
+//Pop up
     $(".one_shot_movie").click(function () {
         $(".pop_up").fadeIn(300);
         positionPopup();
@@ -92,7 +92,7 @@ $(document).ready(function() {
     $(".pop_up > .movie_cross, .pop_up").click(function () {
         $(".pop_up").fadeOut(300);
     });
-
+//End Pop Up
     function menuOnScroll(mySection, myMenu, myClass) {
         $(window).scroll(function(){
             var elScroll = $(window).scrollTop();
