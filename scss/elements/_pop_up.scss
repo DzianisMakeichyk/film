@@ -73,24 +73,26 @@
     justify-content: space-between;
     text-align: center;
     font-size: 8px;
+  }
+}
 
-    .pop_up_view {
-      background: $brow;
-      padding: 10px;
-      width: 47%;
-      text-transform: uppercase;
+.pop_up_view {
+  display: block;
+  background: $brow;
+  padding: 10px;
+  width: 100%;
+  max-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
 
-      &:hover {
-        background: $blodRed;
-      }
+  &:hover {
+    background: $blodRed;
+  }
 
-      @include breakpoint(large) {
-        font-family: Avenir_Bold;
-        padding: 15px;
-        width: 49%;
-        font-size: 12px;
-      }
-    }
+  @include breakpoint(large) {
+    font-family: Avenir_Bold;
+    padding: 15px;
+    font-size: 12px;
   }
 }
 
