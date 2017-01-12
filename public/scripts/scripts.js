@@ -13,7 +13,7 @@ $(document).ready(function() {
         dots: false,
         loop: true,
         responsiveRefreshRate : 200,
-        navText: ['<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 493.4 493.4" style="enable-background:new 0 0 493.4 493.4;" xml:space="preserve"> <g> <path d="M2.9,254.1L112.5,354c3,2.5,6.4,2.9,10,1.4c3.6-1.5,5.4-4.3,5.4-8.3v-64h356.3c2.7,0,4.9-0.9,6.6-2.6c1.7-1.7,2.6-3.9,2.6-6.6v-54.8c0-2.7-0.9-4.9-2.6-6.6c-1.7-1.7-3.9-2.6-6.6-2.6H127.9v-64c0-3.8-1.8-6.6-5.4-8.3c-3.6-1.5-7-1-10,1.7L2.9,240.7c-1.9,1.9-2.9,4.2-2.9,6.8C0,250,1,252.2,2.9,254.1z"/> </g> </svg>','<svg version="1.1" id="Capa_prawa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 493.356 493.356" style="enable-background:new 0 0 493.356 493.356;"xml:space="preserve"> <g> <path d="M490.498,239.278l-109.632-99.929c-3.046-2.474-6.376-2.95-9.993-1.427c-3.613,1.525-5.427,4.283-5.427,8.282v63.954H9.136c-2.666,0-4.856,0.855-6.567,2.568C0.859,214.438,0,216.628,0,219.292v54.816c0,2.663,0.855,4.853,2.568,6.563c1.715,1.712,3.905,2.567,6.567,2.567h356.313v63.953c0,3.812,1.817,6.57,5.428,8.278c3.62,1.529,6.95,0.951,9.996-1.708l109.632-101.077c1.903-1.902,2.852-4.182,2.852-6.849C493.356,243.367,492.401,241.181,490.498,239.278z"/> </g></svg>'],
+        navText: ['<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><path d="M20,21l-3.058,3L5,12L16.942,0L20,3l-9,9L20,21z"/></svg>','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'],
     }).on('changed.owl.carousel', syncPosition);
 
     sync2
@@ -92,4 +92,28 @@ $(document).ready(function() {
     $(".pop_up > .movie_cross, .pop_up").click(function () {
         $(".pop_up").fadeOut(300);
     });
+
+    function menuOnScroll(mySection, myMenu, myClass) {
+        $(window).scroll(function(){
+            var elScroll = $(window).scrollTop();
+            $(mySection).each(function(i){
+                if ($(this).offset().top <= elScroll) {
+                    $(myMenu).removeClass(myClass);
+                    $(myMenu).eq(i).addClass(myClass);
+                }
+            });
+        });
+    }
+    menuOnScroll('section','nav ul li a', 'red');
+    function scrollToAnyPoint (navItem) {
+        var getAttr;
+        $(navItem).click(function(e){
+            e.preventDefault();
+            getAttr = $(this).attr('href');
+            var toSection = $(getAttr).offset().top;
+            $("html, body").animate({scrollTop:toSection}, 1000)
+        });
+    }
+//Call Function
+    scrollToAnyPoint('nav ul li a');
 });
