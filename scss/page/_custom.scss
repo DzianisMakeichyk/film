@@ -176,3 +176,41 @@
     display: none;
   }
 }
+
+#sync1 {
+  .item {
+    .container-text {
+      text-transform: uppercase;
+      text-align: center;
+      opacity: .8;
+      font-size: 32px;
+      padding-top: 90px;
+      letter-spacing: 15px;
+
+      @include breakpoint(medium) {
+        letter-spacing: 35px;
+        font-size: 100px;
+        padding-top: 100px;
+      }
+
+      @include breakpoint(large) {
+        letter-spacing: 55px;
+        font-size: 150px;
+        padding-top: 200px;
+      }
+
+      @include breakpoint(extralarge) {
+        font-size: 204px;
+        padding-top: 410px;
+      }
+    }
+  }
+}
+
+.container-text {
+  background-image:  url(../img/text_background/bodom.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-position: center;
+  color:  #FFFFFF;
+}
