@@ -76,7 +76,7 @@ $(document).ready(function() {
         var number = $(this).index();
         sync1.data('owl.carousel').to(number, 300, true);
     });
-
+//Menu
     $('.burger').click(function () {
         $(this).toggleClass('open');
     });
@@ -86,7 +86,6 @@ $(document).ready(function() {
 //Pop up
     $(".one_shot_movie").click(function () {
         $(".pop_up").fadeIn(300);
-        positionPopup();
     });
 
     $(".pop_up > .movie_cross, .pop_up").click(function () {
@@ -116,4 +115,12 @@ $(document).ready(function() {
     }
 //Call Function
     scrollToAnyPoint('nav ul li a');
+
+// movie
+    $('.movie_more').click(function() {
+        $("html, body").animate({
+            scrollTop: $('#movies').offset().top
+        });
+        $(".pop_up").delay(300).fadeIn(300);
+    });
 });
