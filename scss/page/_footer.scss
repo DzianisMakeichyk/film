@@ -16,7 +16,7 @@ footer {
 }
 
 .pull_left_footer{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
@@ -71,11 +71,15 @@ footer {
   }
 
   .logo {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
 
     @include breakpoint(medium) {
       max-width: 180px
+    }
+
+    @include breakpoint(large) {
+      display: inline-block;
     }
   }
 }

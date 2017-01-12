@@ -1,5 +1,5 @@
 .pop_up {
-  position: absolute;
+  position: fixed;
   display: none;
   width: 100%;
   z-index: 1;
@@ -16,8 +16,12 @@
   .container {
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 50px;
+
+    @include breakpoint(medium) {
+      flex-direction: row;
+    }
   }
 }
 
@@ -41,7 +45,11 @@
 }
 
 .pop_up_left {
-  padding-right: 35px;
+  margin: auto auto 25px;
+
+  @include breakpoint(medium) {
+    padding-right: 35px;
+  }
 
   .pop_up_image {
     max-width: 220px;
