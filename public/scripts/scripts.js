@@ -14,7 +14,26 @@ $(document).ready(function() {
         loop: true,
         responsiveRefreshRate : 200,
         navText: ['<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><path d="M20,21l-3.058,3L5,12L16.942,0L20,3l-9,9L20,21z"/></svg>','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'],
-    }).on('changed.owl.carousel', syncPosition);
+    })
+    .on('changed.owl.carousel', syncPosition)
+    .on('translated.owl.carousel', function() {
+      var element = sync1.find(".owl-item.active .writing");
+      var text = element.data('text');
+      element.html('');
+
+      console.log(text);
+
+      (function write(){
+        if( text.length > 0 )
+        {
+          var firstLetter = text.substr(0,1);
+          text = text.substring(1,text.length);
+
+          element.html(element.html() + firstLetter);
+          setTimeout(write, 200);
+        }
+      })();
+    });
 
     sync2
         .on('initialized.owl.carousel', function () {
@@ -28,7 +47,8 @@ $(document).ready(function() {
             slideSpeed : 500,
             slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
             responsiveRefreshRate : 100
-        }).on('changed.owl.carousel', syncPosition2);
+        })
+        .on('changed.owl.carousel', syncPosition2);
 
     function syncPosition(el) {
         //if you set loop to false, you have to restore this next line
@@ -123,4 +143,8 @@ $(document).ready(function() {
         });
         $(".pop_up").delay(300).fadeIn(300);
     });
+
+  // Writing
+
+  // End Writind
 });
