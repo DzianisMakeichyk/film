@@ -13,12 +13,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta name="format-detection" content="telephone=no">
   <meta name="theme-color" content="#272727">
+  <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/lightgallery/latest/css/lightgallery.css'>
   <link rel='stylesheet' href='./css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css' type='text/css' media='all' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css' type='text/css' media='all' />
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
-  <script src="./scripts/scripts.js"></script>
 </head>
 <body>
 <header>
@@ -237,11 +235,46 @@
               “Zaskakujący”  –
               <span class="red bold">Horrorfreaknews</span>
             </p>
-            <div class="movie_skin">
-              <img src="./img/other/bodom_skin.png" class="movie_skin_one" alt="" role="presentation"/>
-              <img src="./img/other/bodom_skin.png" class="movie_skin_one" alt="" role="presentation"/>
-              <img src="./img/other/bodom_skin.png" class="movie_skin_one" alt="" role="presentation"/>
-              <img src="./img/other/bodom_skin.png" class="movie_skin_one" alt="" role="presentation"/>
+            <div class="movie_skin cont">
+              <div class="demo-gallery">
+                <ul id="lightgallery">
+                  <li class="movie_skin_one" data-responsive="./img/other/bodom_skin.png 375, ./img/other/bodom_skin.png 480, ./img/other/bodom_skin.png 800" data-src="./img/other/bodom_skin.png">
+                    <a href="">
+                      <img class="img-responsive" src="./img/other/bodom_skin.png" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <li class="movie_skin_one" data-responsive="./img/other/bodom_skin.png 375, ./img/other/bodom_skin.png 480, ./img/other/bodom_skin.png 800" data-src="./img/other/bodom_skin.png">
+                    <a href="">
+                      <img class="img-responsive" src="./img/other/bodom_skin.png" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <li class="movie_skin_one" data-responsive="./img/other/bodom_skin.png 375, ./img/other/bodom_skin.png 480, ./img/other/bodom_skin.png 800" data-src="./img/other/bodom_skin.png">
+                    <a href="">
+                      <img class="img-responsive" src="./img/other/bodom_skin.png" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <li class="movie_skin_one" data-responsive="./img/other/bodom_skin.png 375, ./img/other/bodom_skin.png 480, ./img/other/bodom_skin.png 800" data-src="./img/other/bodom_skin.png">
+                    <a href="">
+                      <img class="img-responsive" src="./img/other/bodom_skin.png" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!--<div data-responsive="./img/other/bodom_skin.png" data-src="./img/other/bodom_skin.png" class="movie_skin_one"></div>
+              <div data-responsive="./img/other/bodom_skin.png" data-src="./img/other/bodom_skin.png" class="movie_skin_one"></div>
+              <div data-responsive="./img/other/bodom_skin.png" data-src="./img/other/bodom_skin.png" class="movie_skin_one"></div>-->
             </div>
           </div>
         </div>
@@ -378,5 +411,11 @@
     </div>
   </div>
 </footer>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+<script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdn.jsdelivr.net/g/lightgallery@1.3.5,lg-fullscreen@1.0.1,lg-hash@1.0.1,lg-pager@1.0.1,lg-thumbnail@1.0.1,lg-autoplay@1.0.1,lg-zoom@1.0.3'></script>
+<script src="./scripts/scripts.js"></script>
 </body>
 </html>

@@ -167,9 +167,10 @@
         @include breakpoint(extralarge) {
           width: 150px;
           font-size: 11px;
-          padding: 18px 5px;
+          padding: 13px 5px;
           right: -10px;
           bottom: 45px;
+          height: 40px;
         }
       }
     }

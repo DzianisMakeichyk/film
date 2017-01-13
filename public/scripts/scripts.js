@@ -170,6 +170,9 @@ $(document).ready(function() {
   open_pop_up_video_id.on('click', open_pop_up_video);
   mobile_open_pop_up_video_id.on('click', open_pop_up_video);
 
-
   // End YouTube
+
+  $('#lightgallery').lightGallery({
+    pager: true
+  });
 });
