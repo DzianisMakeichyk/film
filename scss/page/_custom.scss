@@ -98,6 +98,10 @@
     position: relative;
 
     .movie_more {
+      display: none;
+    }
+
+    .movie_more_black {
       position: absolute;
       top:0;
       left: 0;
@@ -129,7 +133,12 @@
     .item {
       position: relative;
 
+      .movie_more_black {
+        display: none;
+      }
+
       .movie_more {
+        display: block;
         position: absolute;
         width: 70px;
         height: 23px;
