@@ -46,11 +46,11 @@
       }
 
       @include breakpoint(large) {
-        font-size: 18px;
+        font-size: 20px;
       }
 
       @include breakpoint(extralarge) {
-        font-size: 20px;
+        font-size: 22px;
       }
 
       .bold {
@@ -74,11 +74,11 @@
           }
 
           @include breakpoint(large) {
-            left: 43px
+            left: 48px
           }
 
           @include breakpoint(extralarge) {
-            left: 48px
+            left: 53px
           }
         }
       }
@@ -147,6 +147,7 @@
       @include breakpoint(medium-lg) {
         display: inline-block;
         padding: 0 20px;
+        font-size: 20px;
       }
 
       @include breakpoint(large) {

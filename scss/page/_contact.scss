@@ -46,6 +46,7 @@
     display: block;
     font-size: 14px;
     padding-bottom: 15px;
+    padding-left: 8px;
 
     @include breakpoint(medium) {
       padding-bottom: 25px;
@@ -63,7 +64,6 @@
 
   @include breakpoint(medium) {
     > a {
-      padding-left: 8px;
 
       &:last-child {
         padding-bottom: 0;
@@ -95,5 +95,5 @@
   display: inline-block;
   max-width:15px;
   max-height:15px;
-  vertical-align: baseline;
+  vertical-align: sub;
 }

@@ -207,7 +207,7 @@
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 360px;
+        padding-top: 15%;
       }
 
       @include breakpoint(extralarge) {
