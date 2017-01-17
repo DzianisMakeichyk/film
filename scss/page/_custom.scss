@@ -12,7 +12,7 @@
   }
 
   @include breakpoint(large) {
-    height: 100vh;
+    height: 80vh;
   }
 }
 
@@ -207,7 +207,7 @@
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 15%;
+        padding-top: 12%;
       }
 
       @include breakpoint(extralarge) {
