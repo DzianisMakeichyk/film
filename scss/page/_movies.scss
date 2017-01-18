@@ -68,6 +68,13 @@
   .shot_movie {
     width: 100%;
 
+    @include breakpoint(medium) {
+      max-height: 339px;
+    }
+
+    @include breakpoint(large) {
+      max-height: 428px;
+    }
   }
 
   &:before {

@@ -55,31 +55,32 @@
       }
 
       .bold {
+        letter-spacing: 1px;
+
         &:before {
           content: '';
           position: absolute;
           height: 80%;
           width: 1px;
           background: $white;
-          left: 30px;
+          right: 33px;
           top: 0;
           bottom: 0;
           margin: auto;
 
           @include breakpoint(medium) {
-            left: 33px
+            right: 38px;
           }
-
-          @include breakpoint(medium) {
-            left: 38px
+          @include breakpoint(medium-lg) {
+            right: 42px;
           }
 
           @include breakpoint(large) {
-            left: 48px
+            right: 52px;
           }
 
           @include breakpoint(extralarge) {
-            left: 53px
+            right: 58px;
           }
         }
       }
@@ -115,7 +116,7 @@
   background: $easeBlack;
   left: 0;
   right: 0;
-  top: 45px;
+  top: 40px;
   bottom: 0;
   z-index: 100;
   overflow: hidden;
