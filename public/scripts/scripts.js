@@ -104,8 +104,11 @@ $(document).ready(function() {
         $('.fullscreen-navigation').toggleClass("open");
     });
 //Pop up
-    $(".one_shot_movie").click(function () {
-        $(".pop_up").fadeIn(300);
+    $('[data-popup-open]').click(function (e) {
+        var targeted_popup_class = $(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(300);
+
+        e.preventDefault();
     });
 
     $(".pop_up > .movie_cross, .pop_up").click(function () {
@@ -137,12 +140,21 @@ $(document).ready(function() {
     scrollToAnyPoint('nav ul li a');
 
 // movie
-    $('.movie_more').click(function() {
+    $('[data-popup-movie]').click(function (e) {
         $("html, body").animate({
             scrollTop: $('#movies').offset().top
         });
-        $(".pop_up").delay(300).fadeIn(300);
+        var targeted_popup_class = $(this).attr('data-popup-movie');
+        $('[data-popup="' + targeted_popup_class + '"]').delay(300).fadeIn(300);
+
+        e.preventDefault();
     });
+    //$('.movie_more').click(function() {
+    //    $("html, body").animate({
+    //        scrollTop: $('#movies').offset().top
+    //    });
+    //    $(".pop_up").delay(300).fadeIn(300);
+    //});
 
   // YouTube
   var pop_up_video = $('#pop_up_video'),
