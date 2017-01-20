@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30cf648-f661-4cf7-b328-1d3128bdc732" name="Default" comment="new pic&#10;new cinemas">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/bodom/Bodom_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cinemas/kino_mikro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cinemas/logo-WCK-site.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/cinemas/nav_kino_sokol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_6.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/gallery/ksk/curse_9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/scripts.js" afterPath="$PROJECT_DIR$/public/scripts/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/page/_movies.scss" afterPath="$PROJECT_DIR$/scss/page/_movies.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/elements/_pop_up.scss" afterPath="$PROJECT_DIR$/scss/elements/_pop_up.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/page/_cinema.scss" afterPath="$PROJECT_DIR$/scss/page/_cinema.scss" />
     </list>
     <ignored path="film.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +42,7 @@
       <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/page/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2882">
+            <state relative-caret-position="1965">
               <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
               <folding />
             </state>
@@ -48,7 +52,7 @@
       <file leaf-file-name="_about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/page/_about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
+            <state relative-caret-position="1275">
               <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
               <folding />
             </state>
@@ -58,7 +62,7 @@
       <file leaf-file-name="_movies.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/page/_movies.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="1095">
               <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding />
             </state>
@@ -68,8 +72,8 @@
       <file leaf-file-name="_pop_up.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/elements/_pop_up.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7590">
-              <caret line="345" column="11" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="11" />
+            <state relative-caret-position="522">
+              <caret line="359" column="18" selection-start-line="359" selection-start-column="18" selection-end-line="359" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -78,8 +82,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/scripts/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="146" column="65" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
+            <state relative-caret-position="400">
+              <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -88,10 +92,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="312" column="34" selection-start-line="312" selection-start-column="34" selection-end-line="312" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="357" column="72" selection-start-line="357" selection-start-column="72" selection-end-line="357" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -100,10 +105,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_cinema.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/page/_cinema.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/page/_custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="1530">
               <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
               <folding />
             </state>
@@ -113,7 +128,7 @@
       <file leaf-file-name="_menu.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/elements/_menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
+            <state relative-caret-position="1170">
               <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
               <folding />
             </state>
@@ -123,7 +138,7 @@
       <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/page/_contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2134">
+            <state relative-caret-position="1455">
               <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
               <folding />
             </state>
@@ -146,19 +161,19 @@
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$USER_HOME$/Downloads/close.svg" />
         <option value="$PROJECT_DIR$/scss/variables/_variables.scss" />
-        <option value="$PROJECT_DIR$/scss/page/_cinema.scss" />
         <option value="$PROJECT_DIR$/scss/page/_footer.scss" />
         <option value="$USER_HOME$/Desktop/film/iconmonstr-arrow-25.svg" />
         <option value="$USER_HOME$/Desktop/film/e-mail-envelope.svg" />
         <option value="$USER_HOME$/Downloads/lightgallery/index.html" />
-        <option value="$PROJECT_DIR$/scss/elements/_pop_up.scss" />
         <option value="$PROJECT_DIR$/scss/page/_base.scss" />
         <option value="$PROJECT_DIR$/scss/page/_contact.scss" />
         <option value="$PROJECT_DIR$/scss/page/_about.scss" />
         <option value="$PROJECT_DIR$/scss/elements/_menu.scss" />
         <option value="$PROJECT_DIR$/scss/page/_custom.scss" />
         <option value="$PROJECT_DIR$/scss/page/_movies.scss" />
+        <option value="$PROJECT_DIR$/scss/page/_cinema.scss" />
         <option value="$PROJECT_DIR$/public/scripts/scripts.js" />
+        <option value="$PROJECT_DIR$/scss/elements/_pop_up.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
@@ -170,26 +185,6 @@
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-        <tasks>
-          <GulpTaskState>
-            <task-name>scss-prod</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>scss-dev</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch-scss</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="watch" />
-            </dependencies>
-            <task-name>serve</task-name>
-          </GulpTaskState>
-        </tasks>
       </GulpfileState>
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
@@ -199,10 +194,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="10" />
-    <option name="width" value="1920" />
-    <option name="height" value="1021" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -229,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,7 +270,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="elements" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,6 +303,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movies" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,7 +350,51 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bodom" />
+              <option name="myItemId" value="ksk" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="film" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cinemas" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,9 +411,12 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="Q:\GitHub\film\node_modules\gulp" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/gallery/ksk" />
+      <recent name="$PROJECT_DIR$/public/img/cinemas" />
       <recent name="Q:\GitHub\film\public\img\gallery\bodom" />
     </key>
   </component>
@@ -428,6 +490,7 @@
       <workItem from="1484668641259" duration="459000" />
       <workItem from="1484770128564" duration="3944000" />
       <workItem from="1484862113169" duration="4112000" />
+      <workItem from="1484901706458" duration="1953000" />
     </task>
     <task id="LOCAL-00001" summary="mobile">
       <created>1484159237206</created>
@@ -545,31 +608,31 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85003000" />
+    <option name="totallyTimeSpent" value="86956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="10" width="1920" height="1021" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1550999" sideWeight="0.22456576" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1550999" sideWeight="0.77543426" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15736766" sideWeight="0.23343849" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15736766" sideWeight="0.7665615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0882353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23614457" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33168316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0882353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -631,6 +694,7 @@
           <caret line="97" column="35" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -690,6 +754,7 @@
           <caret line="91" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="346" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -734,6 +799,7 @@
           <caret line="17" column="128" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -777,6 +843,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -839,13 +906,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/close.svg" />
-    <entry file="file://$PROJECT_DIR$/scss/page/_cinema.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1606">
@@ -869,14 +929,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/elements/_pop_up.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7590">
-          <caret line="345" column="11" selection-start-line="345" selection-start-column="11" selection-end-line="345" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -886,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
+        <state relative-caret-position="1965">
           <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
           <folding />
         </state>
@@ -894,7 +946,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
+        <state relative-caret-position="1455">
           <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding />
         </state>
@@ -902,7 +954,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
+        <state relative-caret-position="1275">
           <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
           <folding />
         </state>
@@ -915,7 +967,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/elements/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
+        <state relative-caret-position="1170">
           <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding />
         </state>
@@ -923,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="1530">
           <caret line="102" column="17" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
           <folding />
         </state>
@@ -931,26 +983,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/page/_movies.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="1095">
           <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/page/_cinema.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="146" column="65" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
+        <state relative-caret-position="400">
+          <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/elements/_pop_up.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="359" column="18" selection-start-line="359" selection-start-column="18" selection-end-line="359" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="312" column="34" selection-start-line="312" selection-start-column="34" selection-end-line="312" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="357" column="72" selection-start-line="357" selection-start-column="72" selection-end-line="357" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#ul#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#1;n#div#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />

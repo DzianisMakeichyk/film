@@ -160,7 +160,7 @@ $(document).ready(function() {
   var pop_up_video = $('#pop_up_video'),
     pop_up_video_iframe = $('#pop_up_video_iframe'),
     close_pop_up_video_id = $('#pop_up_video_bg'),
-    open_pop_up_video_id = $('#open_pop_up_video'),
+    open_pop_up_video_id = $('.open_pop_up_video'),
     mobile_open_pop_up_video_id = $('#mobile_open_pop_up_video');
 
   // Pop-up Video
@@ -184,7 +184,7 @@ $(document).ready(function() {
 
   // End YouTube
 
-  $('#lightgallery').lightGallery({
+  $('.lightgallery').lightGallery({
     pager: true
   });
 });
