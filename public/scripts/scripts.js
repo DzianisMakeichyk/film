@@ -158,33 +158,47 @@ $(document).ready(function() {
 
   // YouTube
   var pop_up_video = $('#pop_up_video'),
-    pop_up_video_iframe = $('#pop_up_video_iframe'),
+    pop_up_video_iframe = $('.pop_up_video_iframe').css('display', 'none'),
     close_pop_up_video_id = $('#pop_up_video_bg'),
-    open_pop_up_video_id = $('#open_pop_up_video'),
+    open_pop_up_video_id = $('.open_pop_up_video'),
     mobile_open_pop_up_video_id = $('#mobile_open_pop_up_video');
 
   // Pop-up Video
 
   var close_pop_up_video = function(event){
     event.preventDefault();
-    pop_up_video_iframe.attr('src', '');
+    pop_up_video_iframe.css('display', 'none');
+      $('[data-popup-youtube="ksk"]').css('display', 'none');
     pop_up_video.css('display', 'none');
   };
   close_pop_up_video_id.on('click', close_pop_up_video);
 
+  //var open_pop_up_video = function(event){
+  //  event.preventDefault();
+  //  pop_up_video_iframe.attr('src', 'https://www.youtube.com/embed/daRLyB9rVC4');
+  //  pop_up_video.css('display', 'block');
+  //};
+  //  var targeted_popup_youtube = function(event){
+  //      event.preventDefault();
+  //      $(this).attr('data-youtube');
+  //      $('[data-popup-youtube="bodom"]').attr('src', 'https://www.youtube.com/embed/daRLyB9rVC4');
+  //  pop_up_video.css('display', 'block');
+  //  };
 
-  var open_pop_up_video = function(event){
-    event.preventDefault();
-    pop_up_video_iframe.attr('src', 'https://www.youtube.com/embed/daRLyB9rVC4');
-    pop_up_video.css('display', 'block');
-  };
-
-  open_pop_up_video_id.on('click', open_pop_up_video);
-  mobile_open_pop_up_video_id.on('click', open_pop_up_video);
+    $('[data-youtube]').click(function (event) {
+        event.preventDefault();
+        $(this).attr('data-youtube');
+        var targeted_youtube = $(this).attr('data-youtube');
+        $('[data-popup-youtube="' + targeted_youtube + '"]').css('display', 'block');
+        //$('[data-popup-youtube="ksk"]').css('display', 'block').attr('src', '');
+        pop_up_video.css('display', 'block');
+    });
+    // open_pop_up_video_id.on('click', open_pop_up_video);
+    // mobile_open_pop_up_video_id.on('click', open_pop_up_video);
 
   // End YouTube
 
-  $('#lightgallery').lightGallery({
+  $('.lightgallery').lightGallery({
     pager: true
   });
 });

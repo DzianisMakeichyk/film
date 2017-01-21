@@ -63,7 +63,7 @@
   <div id="sync2" class="owl-carousel owl-theme">
     <div class="item">
       <img src="./img/movies/burger.png" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="am_burger">czytaj wiecej</div>
     </div>
     <div class="item">
       <img src="./img/movies/bodom.jpg" class="shot_movie" role="presentation" alt="#" />
@@ -71,27 +71,27 @@
     </div>
     <div class="item">
       <img src="./img/movies/burger.png" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="am_burger">czytaj wiecej</div>
       <div class="movie_more_black"></div>
     </div>
     <div class="item">
       <img src="./img/movies/klatwa_spiacej_krolewny.jpg" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="ksk">czytaj wiecej</div>
       <div class="movie_more_black"></div>
     </div>
     <div class="item">
       <img src="./img/movies/atack.png" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="atak">czytaj wiecej</div>
       <div class="movie_more_black"></div>
     </div>
     <div class="item">
       <img src="./img/movies/side.png" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="gora">czytaj wiecej</div>
       <div class="movie_more_black"></div>
     </div>
     <div class="item">
       <img src="./img/movies/bodom.jpg" class="shot_movie" role="presentation" alt="#" />
-      <div class="movie_more">czytaj wiecej</div>
+      <div class="movie_more" data-popup-movie="bodom">czytaj wiecej</div>
       <div class="movie_more_black"></div>
     </div>
   </div>
@@ -160,7 +160,7 @@
           <img src="./img/movies/bodom.jpg" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 2 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="am_burger">
           <p class="name_movie bold">
             Amerykański
             <br />
@@ -169,12 +169,12 @@
           <img src="./img/movies/burger.png" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 3 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="bodom">
           <p class="name_movie bold">Bodom</p>
           <img src="./img/movies/bodom.jpg" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 4 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="am_burger">
           <p class="name_movie bold">
             Amerykański
             <br />
@@ -183,7 +183,7 @@
           <img src="./img/movies/burger.png" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 5 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="ksk">
           <p class="name_movie bold">
             Klątwa Śpiącej
             <br/>
@@ -192,7 +192,7 @@
           <img src="./img/movies/klatwa_spiacej_krolewny.jpg" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 6 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="atak">
           <p class="name_movie bold">
             Atak krwiożerczych
             <br/>
@@ -201,7 +201,7 @@
           <img src="./img/movies/atack.png" class="shot_movie" role="presentation" alt="#" />
         </li>
         <!-- 7 -->
-        <li class="one_shot_movie">
+        <li class="one_shot_movie" data-popup-open="gora">
           <p class="name_movie bold">
             Pod mroczną górą
           </p>
@@ -218,12 +218,12 @@
           <div class="pop_up_left">
             <img src="img/movies/bodom.jpg" class="pop_up_image" alt="#" role="presentation" />
             <div class="pop_up_buttons">
-              <a href="" class="pop_up_view" id="open_pop_up_video">zobacz zwiastun</a>
+              <a href="" class="pop_up_view open_pop_up_video" data-youtube="bodom">zobacz zwiastun</a>
             </div>
           </div>
           <div class="pop_up_right">
-            <p class="movie_name_point bold red">Bodom</p>
-            <p class="movie_description"><span class="white_sepo">Finlandia, Estonia 2016 </span><span class="white_sepo">85 min </span><span class="white_sepo">horror </span><span class="white_sepo">reż: Taneli Mustonen </span></p>
+            <p class="movie_name_point bold red">Bodom (polska premiera)</p>
+            <p class="movie_description"><span class="white_sepo">Finlandia, Estonia 2016 </span><span class="white_sepo">85 min </span><span class="white_sepo">horror </span></p>
             <p class="movie_name">
               <span class="movie_obsada bold">Obsada:</span>
               <span class="white_sepo">Nelly Hirst-Gee</span>
@@ -232,12 +232,10 @@
               <span class="white_sepo">Mimosa Gabriel</span>
             </p>
             <p class="movie_short red bold">
-              Brutalny fiński horror inspirowany prawdziwą masakrą nad jeziorem Bodom z 1960 roku, która wstrząsnęła całym krajem i do dziś budzi gorące emocje. Reżyser filmu, Taneli Mustonen, znalazł się na liście 10 najbardziej utalentowanych młodych filmowców ze Skandynawii,
-              przygotowanej przez prestiżowy magazyn Variety.
+              Brutalny fiński horror inspirowany prawdziwą masakrą nad jeziorem Bodom z 1960 roku, która wstrząsnęła całym krajem i do dziś budzi gorące emocje. Reżyser filmu, Taneli Mustonen, znalazł się na liście 10 najbardziej utalentowanych młodych filmowców ze Skandynawii, przygotowanej przez prestiżowy magazyn Variety.
             </p>
             <p class="movie_short">
-              Latem 1960 roku czworo obozujących nad jeziorem nastolatków zostaje brutalnie zaatakowanych nożem podczas snu. Masakrę przeżywa tylko jedno z nich, jednakże nic nie pamięta z koszmarnej nocy, a sam morderca nie zostaje zidentyfikowany ani ujęty. Legendy głoszą, że do dziś ukrywa się w pobliskich lasach. Pół wieku później obozowisko nad jeziorem Bodom odwiedza grupa młodych śmiałków z nadzieją na dobrą zabawę i rozwiązanie tajemniczej sprawy poprzez szczegółowe odtworzenie okrutnego morderstwa. Gdy zapada noc, okazuje się jednak, że nie wszyscy przybyli tu z czystymi intencjami. Stawką w pełnej zaskakujących zwrotów akcji śmiertelnej grze będzie
-              ich życie.
+              Latem 1960 roku czworo obozujących nad jeziorem nastolatków zostaje brutalnie zaatakowanych nożem podczas snu. Masakrę przeżywa tylko jedno z nich, jednakże nic nie pamięta z koszmarnej nocy, a sam morderca nie zostaje zidentyfikowany ani ujęty. Legendy głoszą, że do dziś ukrywa się w pobliskich lasach. Pół wieku później obozowisko nad jeziorem Bodom odwiedza grupa młodych śmiałków z nadzieją na dobrą zabawę i rozwiązanie tajemniczej sprawy poprzez szczegółowe odtworzenie okrutnego morderstwa. Gdy zapada noc, okazuje się jednak, że nie wszyscy przybyli tu z czystymi intencjami. Stawką w pełnej zaskakujących zwrotów akcji śmiertelnej grze będzie ich życie.
             </p>
             <p class="movie_name bold">
               Media o filmie
@@ -256,7 +254,7 @@
             </p>
             <div class="movie_skin cont">
               <div class="demo-gallery">
-                <ul id="lightgallery">
+                <ul class="lightgallery">
                   <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_01.jpg 375, ./img/gallery/bodom/Bodom_01.jpg 480, ./img/gallery/bodom/Bodom_01.jpg 800" data-src="./img/gallery/bodom/Bodom_01.jpg">
                     <a href="">
                       <img class="img-responsive" src="./img/gallery/bodom/Bodom_01.jpg" />
@@ -334,6 +332,513 @@
           </div>
         </div>
       </div>
+        <!-- End Bodom -->
+        <!-- Am.Burger -->
+        <div class="pop_up" data-popup="am_burger">
+        <div class="container">
+          <svg class="movie_cross" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+        <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23
+          185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/>
+        </svg>
+          <div class="pop_up_left">
+            <img src="img/movies/burger.png" class="pop_up_image" alt="AMERYKAŃSKI BURGER" role="presentation" />
+            <div class="pop_up_buttons">
+              <a href="" class="pop_up_view open_pop_up_video" data-youtube="bodom">zobacz zwiastun</a>
+            </div>
+          </div>
+          <div class="pop_up_right">
+            <p class="movie_name_point bold red">AMERYKAŃSKI BURGER (polska premiera)</p>
+            <p class="movie_description"><span class="white_sepo">Szwecja 2014 </span><span class="white_sepo">78 min </span><span class="white_sepo">komedia, horror </span></p>
+            <!--<p class="movie_name">
+              <span class="movie_obsada bold">Obsada:</span>
+              <span class="white_sepo">Nelly Hirst-Gee</span>
+              <span class="white_sepo">Santeri Helinheimo Mäntylä</span>
+              <span class="white_sepo">Mimosa Willamo</span>
+              <span class="white_sepo">Mimosa Gabriel</span>
+            </p>-->
+            <p class="movie_short red bold">
+              Nieobliczalny szwedzki horror komediowy składający krwisty hołd amerykańskim fast-foodom i kultowym slasherom z obowiązkowymi cheerleaderkami, kujonami i niezbyt lotnymi intelektualnie mięśniakami. Po seansie „Amerykańskiego burgera” już nigdy nie spojrzycie tak samo na Wasze ulubione burgery!\
+            </p>
+            <p class="movie_short">
+              Grupa amerykańskich studentów, wśród których znajdują się cheerleaderki, umięśnieni futboliści i pogardzane kujony, wyrusza busem w krajoznawczą podróż po Europie. Po drodze na terenie Szwecji zatrzymują się na skraju leśnej głuszy przy budce z fast-foodem, z dumą sprzedającej stuprocentowe Amerykańskie Burgery. Po skosztowaniu ukochanego dania trafiają do pobliskiej Fabryki Burgerów. Wizyta w odizolowanym przedsiębiorstwie okaże się jednak dla nich śmiertelną pułapką, która niczego nieświadomym turystom odsłoni całą prawdę na temat metod przyrządzania burgerów w Europie.
+            </p>
+            <p class="movie_name bold">
+              Media o filmie
+            </p>
+            <p class="movie_press">
+              „Doskonała rozrywka” –
+              <span class="red bold">Bloodbath & Beyond</span>
+            </p>
+            <p class="movie_press">
+              “Błyskotliwy” –
+              <span class="red bold">Hickey’s House of Horrors</span>
+            </p>
+            <p class="movie_press">
+              “Powiew świeżości”  –
+              <span class="red bold">Reelauthors</span>
+            </p>
+            <div class="movie_skin cont">
+              <div class="demo-gallery">
+                <ul class="lightgallery">
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_01.jpg 375, ./img/gallery/bodom/Bodom_01.jpg 480, ./img/gallery/bodom/Bodom_01.jpg 800" data-src="./img/gallery/bodom/Bodom_01.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_01.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  2 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_02.jpg 375, ./img/gallery/bodom/Bodom_02.jpg 480, ./img/gallery/bodom/Bodom_02.jpg 800" data-src="./img/gallery/bodom/Bodom_02.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_02.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  3 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_03.jpg 375, ./img/gallery/bodom/Bodom_03.jpg 480, ./img/gallery/bodom/Bodom_03.jpg 800" data-src="./img/gallery/bodom/Bodom_03.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_03.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  4 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_04.jpg 375, ./img/gallery/bodom/Bodom_04.jpg 480, ./img/gallery/bodom/Bodom_04.jpg 800" data-src="./img/gallery/bodom/Bodom_04.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_04.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  5 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_05.jpg 375, ./img/gallery/bodom/Bodom_05.jpg 480, ./img/gallery/bodom/Bodom_05.jpg 800" data-src="./img/gallery/bodom/Bodom_05.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_05.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  6 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_06.jpg 375, ./img/gallery/bodom/Bodom_06.jpg 480, ./img/gallery/bodom/Bodom_06.jpg 800" data-src="./img/gallery/bodom/Bodom_06.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_06.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  7 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_07.jpg 375, ./img/gallery/bodom/Bodom_07.jpg 480, ./img/gallery/bodom/Bodom_07.jpg 800" data-src="./img/gallery/bodom/Bodom_07.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_07.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Am.Burger  8 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/bodom/Bodom_09.jpg 375, ./img/gallery/bodom/Bodom_09.jpg 480, ./img/gallery/bodom/Bodom_09.jpg 800" data-src="./img/gallery/bodom/Bodom_09.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/bodom/Bodom_09.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- End Am.Burger  -->
+        <!-- KSk -->
+        <div class="pop_up" data-popup="ksk">
+        <div class="container">
+          <svg class="movie_cross" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+        <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23
+          185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/>
+        </svg>
+          <div class="pop_up_left">
+            <img src="img/movies/klatwa.png" class="pop_up_image" alt="#" role="presentation" />
+            <div class="pop_up_buttons">
+              <a href="" class="pop_up_view open_pop_up_video" data-youtube="ksk">zobacz zwiastun</a>
+            </div>
+          </div>
+          <div class="pop_up_right">
+            <p class="movie_name_point bold red">KLĄTWA ŚPIĄCEJ KRÓLEWNY (polska premiera)</p>
+            <p class="movie_description"><span class="white_sepo">USA 2016 </span><span class="white_sepo">89 min </span><span class="white_sepo">horror, fantasy, thriller </span></p>
+<!--
+            <p class="movie_name">
+              <span class="movie_obsada bold">Obsada:</span>
+              <span class="white_sepo">Nelly Hirst-Gee</span>
+              <span class="white_sepo">Santeri Helinheimo Mäntylä</span>
+              <span class="white_sepo">Mimosa Willamo</span>
+              <span class="white_sepo">Mimosa Gabriel</span>
+            </p>
+-->
+            <p class="movie_short red bold">
+              „Klątwa Śpiącej Królewny” to niezwykle klimatyczny, gotycki horror z elementami fantasy, odświeżający w mrocznym tonie klasyczną baśń braci Grimm.
+            </p>
+            <p class="movie_short">
+              Thomas Kaiser (Ethan Peck) niespodziewanie dostaje w spadku ogromny rodowy dwór, od pokoleń należący do jego rodziny, a wraz z nim – pradawną klątwę, której początki sięgają średniowiecznych Wypraw Krzyżowych. Zmuszony do przyjęcia nowej roli „obrońcy” – strażnika wyznaczonego do utrzymania złych demonów w obrębie domu  – musi rozwikłać tajemnicę mrocznej rezydencji i wybudzić przetrzymywaną w przerażającej otchłani piękną Briar Rose (India Eisley), którą zna ze swoich koszmarnych snów.
+            </p>
+            <p class="movie_name bold">
+              Media o filmie
+            </p>
+            <p class="movie_press">
+              „Fascynujący film” –
+              <span class="red bold">ReelTalk</span>
+            </p>
+            <p class="movie_press">
+              “Świeży pomysł w skostniałym gatunku” –
+              <span class="red bold">Mark Leeper’s Reviews</span>
+            </p>
+            <div class="movie_skin cont">
+              <div class="demo-gallery">
+                <ul class="lightgallery">
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_2.jpg 375, ./img/gallery/ksk/curse_2.jpg 480, ./img/gallery/ksk/curse_2.jpg 800" data-src="./img/gallery/ksk/curse_2.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_2.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 2 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_3.jpg 375, ./img/gallery/ksk/curse_3.jpg 480, ./img/gallery/ksk/curse_3.jpg 800" data-src="./img/gallery/ksk/curse_3.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_3.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 3 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_4.jpg 375, ./img/gallery/ksk/curse_4.jpg 480, ./img/gallery/ksk/curse_4.jpg 800" data-src="./img/gallery/ksk/curse_4.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_4.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 4 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_5 375, ./img/gallery/ksk/curse_5.jpg 480, ./img/gallery/ksk/curse_5.jpg 800" data-src="./img/gallery/ksk/curse_5.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_5.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ks 5 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_6.jpeg 375, ./img/gallery/ksk/curse_6.jpeg 480, ./img/gallery/ksk/curse_6.jpeg 800" data-src="./img/gallery/ksk/curse_6.jpeg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_6.jpeg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 6 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_7.jpg 375, ./img/gallery/ksk/curse_7.jpg 480, ./img/gallery/ksk/curse_7.jpg 800" data-src="./img/gallery/ksk/curse_7.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_7.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 7 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_8.jpg 375, ./img/gallery/ksk/curse_8.jpg 480, ./img/gallery/ksk/curse_8.jpg 800" data-src="./img/gallery/ksk/curse_8.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_8.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- ksk 8 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_9.jpg 375, ./img/gallery/ksk/curse_9.jpg 480, ./img/gallery/ksk/curse_9.jpg 800" data-src="./img/gallery/ksk/curse_9.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_9.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- End KSK -->
+        <!-- Atak -->
+        <div class="pop_up" data-popup="atak">
+        <div class="container">
+          <svg class="movie_cross" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+        <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23
+          185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/>
+        </svg>
+          <div class="pop_up_left">
+            <img src="img/movies/atack.png" class="pop_up_image" alt="#" role="presentation" />
+            <div class="pop_up_buttons">
+              <a href="" class="pop_up_view open_pop_up_video" data-youtube="atak">zobacz zwiastun</a>
+            </div>
+          </div>
+          <div class="pop_up_right">
+            <p class="movie_name_point bold red">ATAK KRWIOŻERCZYCH DONATÓW (polska premiera)</p>
+            <p class="movie_description"><span class="white_sepo">USA 2016 </span><span class="white_sepo">98 min </span><span class="white_sepo">komedia, horror </span></p>
+<!--
+            <p class="movie_name">
+              <span class="movie_obsada bold">Obsada:</span>
+              <span class="white_sepo">Nelly Hirst-Gee</span>
+              <span class="white_sepo">Santeri Helinheimo Mäntylä</span>
+              <span class="white_sepo">Mimosa Willamo</span>
+              <span class="white_sepo">Mimosa Gabriel</span>
+            </p>
+-->
+            <p class="movie_short red bold">
+              Objadaliśmy się nimi przez lata, teraz przyszła kolej na ich zemstę! „Atak krwiożerczych donatów” to świadomie kiczowata, bezwstydnie niepoważna i pyszna parodia kina grozy spod znaku kultowego “Ataku krwiożerczych pomidorów” z 1978 roku, którą oglądać będziecie z WYPIEKAMI!
+            </p>
+            <p class="movie_short">
+              Na skutek niefortunnego wypadku z chemikaliami zwykłe donaty przeobrażają się w krwiożerczych zabójców. Teraz troje cukierników: Johnny, Michelle i Howard muszą ratować senne miasteczko przed… atakiem krwiożerczych donatów!
+            </p>
+            <p class="movie_name bold">
+              Media o filmie
+            </p>
+            <p class="movie_press">
+              „Kupa śmiechu” –
+              <span class="red bold">Miami New Times</span>
+            </p>
+            <p class="movie_press">
+              “Niczym film Ghandi, tylko że z donatami” –
+              <span class="red bold">Scott Wheeler, reżyser</span>
+            </p>
+            <p class="movie_press">
+              “Gdyby John Waters i George Romero razem wzięli LSD i spędzili noc w cukierni z donatami, coś takiego jak „Atak krwiożerczych donatów” mogłoby zrodzić się w ich głowach” –
+              <span class="red bold">The Hollywood Reporter</span>
+            </p>
+            <div class="movie_skin cont">
+              <div class="demo-gallery">
+                <ul class="lightgallery">
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_2.jpg 375, ./img/gallery/ksk/curse_2.jpg 480, ./img/gallery/ksk/curse_2.jpg 800" data-src="./img/gallery/ksk/curse_2.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_2.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 2 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_3.jpg 375, ./img/gallery/ksk/curse_3.jpg 480, ./img/gallery/ksk/curse_3.jpg 800" data-src="./img/gallery/ksk/curse_3.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_3.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 3 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_4.jpg 375, ./img/gallery/ksk/curse_4.jpg 480, ./img/gallery/ksk/curse_4.jpg 800" data-src="./img/gallery/ksk/curse_4.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_4.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 4 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_5 375, ./img/gallery/ksk/curse_5.jpg 480, ./img/gallery/ksk/curse_5.jpg 800" data-src="./img/gallery/ksk/curse_5.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_5.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 5 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_6.jpeg 375, ./img/gallery/ksk/curse_6.jpeg 480, ./img/gallery/ksk/curse_6.jpeg 800" data-src="./img/gallery/ksk/curse_6.jpeg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_6.jpeg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 6 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_7.jpg 375, ./img/gallery/ksk/curse_7.jpg 480, ./img/gallery/ksk/curse_7.jpg 800" data-src="./img/gallery/ksk/curse_7.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_7.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 7 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_8.jpg 375, ./img/gallery/ksk/curse_8.jpg 480, ./img/gallery/ksk/curse_8.jpg 800" data-src="./img/gallery/ksk/curse_8.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_8.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 8 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_9.jpg 375, ./img/gallery/ksk/curse_9.jpg 480, ./img/gallery/ksk/curse_9.jpg 800" data-src="./img/gallery/ksk/curse_9.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_9.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- End Atak -->
+        <!-- Gora -->
+        <div class="pop_up" data-popup="gora">
+        <div class="container">
+          <svg class="movie_cross" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 371.23 371.23" style="enable-background:new 0 0 371.23 371.23;" xml:space="preserve">
+        <polygon points="371.23,21.213 350.018,0 185.615,164.402 21.213,0 0,21.213 164.402,185.615 0,350.018 21.213,371.23
+          185.615,206.828 350.018,371.23 371.23,350.018 206.828,185.615 "/>
+        </svg>
+          <div class="pop_up_left">
+            <img src="img/movies/side.png" class="pop_up_image" alt="#" role="presentation" />
+            <div class="pop_up_buttons">
+              <a href="" class="pop_up_view open_pop_up_video" data-youtube="gora">zobacz zwiastun</a>
+            </div>
+          </div>
+          <div class="pop_up_right">
+            <p class="movie_name_point bold red">POD MROCZNĄ GÓRĄ (polska premiera)</p>
+            <p class="movie_description"><span class="white_sepo">Kanada 2014 </span><span class="white_sepo">99 min </span><span class="white_sepo">horror, thriller </span></p>
+<!--
+            <p class="movie_name">
+              <span class="movie_obsada bold">Obsada:</span>
+              <span class="white_sepo">Nelly Hirst-Gee</span>
+              <span class="white_sepo">Santeri Helinheimo Mäntylä</span>
+              <span class="white_sepo">Mimosa Willamo</span>
+              <span class="white_sepo">Mimosa Gabriel</span>
+            </p>
+-->
+            <p class="movie_short red bold">
+              Doskonale przyjęty na festiwalach Fantasia i w Austin („napięcie nie do zniesienia”, „doskonały realizacyjnie”, „najlepszy horror festiwalu”) horror zimowy osadzony w klimatycznym, ośnieżonym krajobrazie Północnej Kanady. Filmowy list miłosny do kultowego horroru „Coś” Johna Carpentera z Kurtem Russellem.
+            </p>
+            <p class="movie_short">
+              Grupa archeologów odkrywa w Północnej Kanadzie zakopany w śniegu głaz z wyrytymi na nim pradawnymi napisami i symbolami. Badacze nieświadomie uwalniają starożytnego wirusa, ściągając na siebie nieznaną chorobę, która szybko dopada całą ekipę. Osamotnienie, paranoja i strach spotęgowany wizjami tajemniczej postaci zaostrzają trawiącą ich epidemię, popychając badaczy do coraz brutalniejszych zachowań.
+            </p>
+            <p class="movie_name bold">
+              Media o filmie
+            </p>
+            <p class="movie_press">
+              „Film Nicka Szostakiwskyja to porządna pozycja w filmowej tradycji zimowych thrillerów” –
+              <span class="red bold">INDIEWIRE</span>
+            </p>
+            <p class="movie_press">
+              “Współczynnik strachu wykracza poza skalę” –
+              <span class="red bold">Scott Wheeler, reżyser</span>
+            </p>
+            <p class="movie_press">
+              “Gdyby John Waters i George Romero razem wzięli LSD i spędzili noc w cukierni z donatami, coś takiego jak „Atak krwiożerczych donatów” mogłoby zrodzić się w ich głowach” –
+              <span class="red bold">The Hollywood Reporter</span>
+            </p>
+            <div class="movie_skin cont">
+              <div class="demo-gallery">
+                <ul class="lightgallery">
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_2.jpg 375, ./img/gallery/ksk/curse_2.jpg 480, ./img/gallery/ksk/curse_2.jpg 800" data-src="./img/gallery/ksk/curse_2.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_2.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 2 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_3.jpg 375, ./img/gallery/ksk/curse_3.jpg 480, ./img/gallery/ksk/curse_3.jpg 800" data-src="./img/gallery/ksk/curse_3.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_3.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 3 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_4.jpg 375, ./img/gallery/ksk/curse_4.jpg 480, ./img/gallery/ksk/curse_4.jpg 800" data-src="./img/gallery/ksk/curse_4.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_4.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 4 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_5 375, ./img/gallery/ksk/curse_5.jpg 480, ./img/gallery/ksk/curse_5.jpg 800" data-src="./img/gallery/ksk/curse_5.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_5.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 5 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_6.jpeg 375, ./img/gallery/ksk/curse_6.jpeg 480, ./img/gallery/ksk/curse_6.jpeg 800" data-src="./img/gallery/ksk/curse_6.jpeg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_6.jpeg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 6 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_7.jpg 375, ./img/gallery/ksk/curse_7.jpg 480, ./img/gallery/ksk/curse_7.jpg 800" data-src="./img/gallery/ksk/curse_7.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_7.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 7 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_8.jpg 375, ./img/gallery/ksk/curse_8.jpg 480, ./img/gallery/ksk/curse_8.jpg 800" data-src="./img/gallery/ksk/curse_8.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_8.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                  <!-- Atak 8 -->
+                  <li class="movie_skin_one" data-responsive="./img/gallery/ksk/curse_9.jpg 375, ./img/gallery/ksk/curse_9.jpg 480, ./img/gallery/ksk/curse_9.jpg 800" data-src="./img/gallery/ksk/curse_9.jpg">
+                    <a href="">
+                      <img class="img-responsive" src="./img/gallery/ksk/curse_9.jpg" />
+                      <div class="demo-gallery-poster">
+                        <img src="http://sachinchoolur.github.io/lightGallery/static/img/zoom.png" />
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- End Atak -->
         <!-- YouTube -->
         <section id="pop_up_video" class="pop_up_video">
           <div>
@@ -341,7 +846,10 @@
               <a href="" id="pop_up_video_bg" class="pop_up_video_bg"></a>
               <div id="video_container" class="video_container">
                 <div id="video" class="video">
-                  <iframe width="560" height="315" id="pop_up_video_iframe" src="" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe width="560" height="315" class="pop_up_video_iframe" data-popup-youtube="bodom" src="https://www.youtube.com/embed/ZKBKYe_Yka4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe width="560" height="315" class="pop_up_video_iframe" data-popup-youtube="am_burger" src="https://www.youtube.com/embed/rIHRIrb8Ppc" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe width="560" height="315" class="pop_up_video_iframe" data-popup-youtube="ksk" src="https://www.youtube.com/embed/MHynMYcJ1zg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <iframe width="560" height="315" class="pop_up_video_iframe" data-popup-youtube="atak" src="https://player.vimeo.com/video/165074941" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
               </div>
             </div>
@@ -360,17 +868,21 @@
         <p class="bold">Kina</p>
       </div>
       <div class="cinema_city">
-        <p class="red bold">Katowice</p>
+        <p class="red bold">Kraków</p>
         <div class="cinema_shot">
           <p class="cinema_shot_name">Kino Mikro</p>
           <p class="cinema_shot_date">13-19/02/2017</p>
-          <img class="cinema_shot_img cc" src="./img/other/cinemacity.png" alt="#" role="presentation" />
+          <a href="http://www.kinomikro.pl/" target="_blank" >
+            <img class="cinema_shot_img" src="./img/cinemas/kino_mikro.png" alt="Kino Mikro" role="presentation" />
+            </a>
         </div>
         <div class="separator"></div>
         <div class="cinema_shot">
           <p class="cinema_shot_name">Kino Mikro - Galeria Bronowice</p>
           <p class="cinema_shot_date">13-19/02/2017</p>
-          <img class="cinema_shot_img" src="./img/other/multikino.png" alt="#" role="presentation" />
+          <a href="http://www.kinomikro.pl/" target="_blank" >
+            <img class="cinema_shot_img" src="./img/cinemas/kino_mikro.png" alt="Kino Mikro" role="presentation" />
+          </a>
         </div>
       </div>
       <div class="cinema_city">
@@ -378,7 +890,9 @@
         <div class="cinema_shot">
           <p class="cinema_shot_name">Kino Sokoł</p>
           <p class="cinema_shot_date">10-11/02/2017(maraton) 28-29/02/2017(maraton)</p>
-          <img class="cinema_shot_img cc" src="./img/other/cinemacity.png" alt="#" role="presentation" />
+          <a href="http://www.kino-sokol.pl" target="_blank" >
+            <img class="cinema_shot_img" src="./img/cinemas/nav_kino_sokol.png" alt="Kino Sokol" role="presentation" />
+          </a>
         </div>
         <div class="separator"></div>
       </div>
@@ -387,7 +901,9 @@
         <div class="cinema_shot">
           <p class="cinema_shot_name">Wadowickie Centrum Kultury</p>
           <p class="cinema_shot_date">02-10/02/2017</p>
-          <img class="cinema_shot_img cc" src="./img/other/cinemacity.png" alt="#" role="presentation" />
+          <a href="http://wck.wadowice.pl" target="_blank" >
+            <img class="cinema_shot_img" src="./img/cinemas/logo-WCK-site.png" alt="Wadowickie Centrum Kultury" role="presentation" />
+          </a>
         </div>
         <div class="separator"></div>
       </div>
