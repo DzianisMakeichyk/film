@@ -105,6 +105,9 @@ $(document).ready(function() {
     });
 //Pop up
     $('[data-popup-open]').click(function (e) {
+        $("html, body").animate({
+          scrollTop: $('#movies').offset().top
+        });
         var targeted_popup_class = $(this).attr('data-popup-open');
         $('[data-popup="' + targeted_popup_class + '"]').fadeIn(300);
 
@@ -168,7 +171,6 @@ $(document).ready(function() {
   var close_pop_up_video = function(event){
     event.preventDefault();
     pop_up_video_iframe.css('display', 'none');
-      $('[data-popup-youtube="ksk"]').css('display', 'none');
     pop_up_video.css('display', 'none');
   };
   close_pop_up_video_id.on('click', close_pop_up_video);
@@ -181,7 +183,6 @@ $(document).ready(function() {
   //  var targeted_popup_youtube = function(event){
   //      event.preventDefault();
   //      $(this).attr('data-youtube');
-  //      $('[data-popup-youtube="bodom"]').attr('src', 'https://www.youtube.com/embed/daRLyB9rVC4');
   //  pop_up_video.css('display', 'block');
   //  };
 
@@ -190,7 +191,6 @@ $(document).ready(function() {
         $(this).attr('data-youtube');
         var targeted_youtube = $(this).attr('data-youtube');
         $('[data-popup-youtube="' + targeted_youtube + '"]').css('display', 'block');
-        //$('[data-popup-youtube="ksk"]').css('display', 'block').attr('src', '');
         pop_up_video.css('display', 'block');
     });
     // open_pop_up_video_id.on('click', open_pop_up_video);
