@@ -2,6 +2,7 @@
 
 # dependencies
 node_modules
+.idea
 
 # testing
 coverage
@@ -12,5 +13,4 @@ build
 # misc
 .DS_Store
 .env
-.idea
 npm-debug.log
