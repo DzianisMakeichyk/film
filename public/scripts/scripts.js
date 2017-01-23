@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     sync1.owlCarousel({
         items : 1,
-        slideSpeed : 5000,
+        slideSpeed : 8000,
         nav: true,
         autoplay: true,
         dots: false,
@@ -44,7 +44,7 @@ $(document).ready(function() {
             dots: true,
             nav: true,
             smartSpeed: 200,
-            slideSpeed : 500,
+            slideSpeed : 800,
             slideBy: slidesPerPage, //alternatively you can slide by 1, this way the active slide will stick to the first item in the second carousel
             responsiveRefreshRate : 100
         })

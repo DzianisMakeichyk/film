@@ -1,9 +1,5 @@
 #sync1 .item {
   display: block;
-  background: url("../img/bodom.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding:0;
   height: 30vh;
 
@@ -41,10 +37,8 @@
   width: 50px;
   margin-top: -20px;
   position: absolute;
-  top: 37%;
-  @include breakpoint(large) {
-    top: 46%;
-  }
+  top: 50%;
+  transform: translateY(-50%);
 }
 #sync1.owl-theme .owl-prev {
   left: 10px;
@@ -101,7 +95,7 @@
     }
 
     .shot_movie {
-      max-height: 172px;
+      max-height: 198px;
 
       @include breakpoint(medium-lg) {
         max-height: 251px;
@@ -112,7 +106,7 @@
       }
 
       @include breakpoint(extralarge) {
-        max-height: 431px;
+        max-height: 421px;
       }
     }
 
@@ -205,29 +199,24 @@
       text-align: center;
       opacity: .8;
       font-size: 32px;
-      padding-top: 90px;
+      padding-top: 60%;
+      transform: translateY(-50%);
       letter-spacing: 15px;
 
       @include breakpoint(medium) {
         letter-spacing: 35px;
         font-size: 100px;
-        padding-top: 100px;
+        padding-top: 45%;
       }
 
       @include breakpoint(medium-lg) {
         letter-spacing: 55px;
-        padding-top: 150px;
       }
 
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 20%;
-      }
-
-      @include breakpoint(extralarge) {
-        font-size: 204px;
-        padding-top: 275px;
+        padding-top: 65%;
       }
     }
   }
@@ -235,7 +224,6 @@
 
 .container-text {
   position: relative;
-  background-image:  url(../img/text_background/bodom.png);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-position: center;

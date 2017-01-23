@@ -1,0 +1,151 @@
+#sync1 {
+  .item {
+    &.am_burger {
+      background: url("../img/carousel/burger.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+        font-size: 20px;
+
+        @include breakpoint(small) {
+          font-size: 36px;
+        }
+
+        @include breakpoint(large) {
+          font-size: 90px;
+        }
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.bodom {
+      background: url("../img/carousel/bodom1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.express {
+      background: url("../img/carousel/express.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+
+        @include breakpoint(small) {
+          font-size: 56px;
+        }
+
+        @include breakpoint(medium-lg) {
+          font-size: 60px;
+       }
+
+        @include breakpoint(large) {
+          font-size:110px;
+        }
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.klatwa {
+      background: url("../img/carousel/klatwa.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+        font-size: 20px;
+
+        @include breakpoint(small) {
+          font-size: 40px;
+        }
+
+        @include breakpoint(medium-lg) {
+          font-size: 50px;
+        }
+
+        @include breakpoint(large) {
+          font-size: 90px;
+        }
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.atak {
+      background: url("../img/carousel/donaty1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+        font-size: 16px;
+
+        @include breakpoint(small) {
+          font-size: 44px;
+        }
+
+        @include breakpoint(large) {
+          font-size: 50px;
+        }
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.side {
+      background: url("../img/carousel/side.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+
+    &.lament {
+      background: url("../img/carousel/lament1.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .container-text {
+        background-image: url(../img/text_background/blood.jpg);
+
+        @include breakpoint(extralarge) {
+          font-size: 204px;
+        }
+      }
+    }
+  }
+}
