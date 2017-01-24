@@ -7,12 +7,14 @@ $(document).ready(function() {
 
     sync1.owlCarousel({
         items : 1,
-        slideSpeed : 8000,
+        slideSpeed : 50,
+        smartSpeed : 1000,
+        autoplayTimeout : 7800,
         nav: true,
         autoplay: true,
         dots: false,
         loop: true,
-        responsiveRefreshRate : 200,
+        responsiveRefreshRate : 400,
         navText: ['<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><path d="M20,21l-3.058,3L5,12L16.942,0L20,3l-9,9L20,21z"/></svg>','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'],
     })
     .on('changed.owl.carousel', syncPosition)
@@ -21,7 +23,7 @@ $(document).ready(function() {
       var text = element.data('text');
       element.html('');
 
-      console.log(text);
+      // console.log(text);
 
       (function write(){
         if( text.length > 0 )

@@ -230,3 +230,22 @@
     display: none;
   }
 }
+
+.svg-facebook {
+  width: 16px;
+  height: 16px;
+  fill: $white;
+  transition: fill .4s ease-in-out;
+
+  &:hover {
+    fill: $blodRed;
+  }
+}
+
+.click_menu {
+  transition: color .4s ease-in-out;
+
+  &:hover {
+    color: $blodRed;
+  }
+}

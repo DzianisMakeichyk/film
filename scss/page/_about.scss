@@ -5,6 +5,8 @@
 .about_box {
   display: flex;
   flex-direction: column;
+  max-width: 1600px;
+  margin: 0 auto;
 
   @include breakpoint(medium) {
     flex-direction: row;

@@ -94,7 +94,7 @@
       display: none;
     }
 
-    .shot_movie {
+    /*.shot_movie {
       max-height: 198px;
 
       @include breakpoint(medium-lg) {
@@ -102,13 +102,13 @@
       }
 
       @include breakpoint(large) {
-        max-height: 333px;
+        max-height: 350px;
       }
 
       @include breakpoint(extralarge) {
         max-height: 421px;
       }
-    }
+    }*/
 
     .movie_more_black {
       position: absolute;
@@ -206,7 +206,7 @@
       @include breakpoint(medium) {
         letter-spacing: 35px;
         font-size: 100px;
-        padding-top: 45%;
+        padding-top: 55%;
       }
 
       @include breakpoint(medium-lg) {
@@ -216,7 +216,7 @@
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 65%;
+        padding-top: 75%;
       }
     }
   }
