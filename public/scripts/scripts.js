@@ -203,4 +203,11 @@ $(document).ready(function() {
   $('.lightgallery').lightGallery({
     pager: true
   });
+
+  //Cine more
+    $('.show_more').click(function() {
+        $('.cinema_more').toggleClass("cinemas_show");
+        $(this).toggleClass("more_show");
+    });
+
 });
