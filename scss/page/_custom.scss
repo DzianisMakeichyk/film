@@ -206,7 +206,7 @@
       @include breakpoint(medium) {
         letter-spacing: 35px;
         font-size: 100px;
-        padding-top: 55%;
+        padding-top: 48%;
       }
 
       @include breakpoint(medium-lg) {
@@ -216,7 +216,11 @@
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 65%;
+        padding-top: 67%;
+      }
+
+      @include breakpoint(extralarge) {
+        padding-top: 71%;
       }
     }
   }
