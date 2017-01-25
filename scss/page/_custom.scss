@@ -35,7 +35,6 @@
 #sync1.owl-theme .owl-next,
 #sync1.owl-theme .owl-prev {
   width: 50px;
-  margin-top: -20px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -199,14 +198,11 @@
       text-align: center;
       opacity: .8;
       font-size: 32px;
-      padding-top: 60%;
-      transform: translateY(-50%);
       letter-spacing: 15px;
 
       @include breakpoint(medium) {
         letter-spacing: 35px;
         font-size: 100px;
-        padding-top: 48%;
       }
 
       @include breakpoint(medium-lg) {
@@ -216,11 +212,6 @@
       @include breakpoint(large) {
         letter-spacing: 55px;
         font-size: 150px;
-        padding-top: 67%;
-      }
-
-      @include breakpoint(extralarge) {
-        padding-top: 71%;
       }
     }
   }
