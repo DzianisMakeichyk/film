@@ -19,7 +19,7 @@
         }
 
         @include breakpoint(extralarge) {
-          font-size: 204px;
+          font-size: 114px;
         }
       }
     }
@@ -89,7 +89,7 @@
         }
 
         @include breakpoint(extralarge) {
-          font-size: 204px;
+          font-size: 174px;
         }
       }
     }
@@ -113,7 +113,8 @@
         }
 
         @include breakpoint(extralarge) {
-          font-size: 204px;
+          font-size: 84px;
+          line-height: 160px;
         }
       }
     }
@@ -132,7 +133,7 @@
         }
 
         @include breakpoint(extralarge) {
-          font-size: 224px;
+          font-size: 204px;
         }
       }
     }
