@@ -1,4 +1,7 @@
-.container-text {
-    background-image: none !important;
-    color: #fff !important;
+/* IE8 uses \0 */
+@media all\0 {
+    .container-text {
+        background-image: none !important;
+        color: #fff !important;
+    }
 }
