@@ -9,7 +9,7 @@ $(document).ready(function() {
         items : 1,
         slideSpeed : 50,
         smartSpeed : 1000,
-        autoplayTimeout : 7800,
+        autoplayTimeout : 9800,
         nav: true,
         autoplay: true,
         dots: false,
