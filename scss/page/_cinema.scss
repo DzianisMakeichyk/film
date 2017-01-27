@@ -55,8 +55,9 @@
       display: none;
 
       &.kika {
-        height: 100px;
+        height: auto;
         width: 100%;
+        max-width: 80px;
       }
 
       @include breakpoint(medium) {
