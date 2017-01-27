@@ -54,6 +54,11 @@
     .cinema_shot_img {
       display: none;
 
+      &.kika {
+        height: 100px;
+        width: 100%;
+      }
+
       @include breakpoint(medium) {
         display: block;
         width: 100px;
@@ -77,8 +82,7 @@
         @include breakpoint(extralarge) {
           width: 110px;
         }
-    }
-
+      }
     }
   }
 
