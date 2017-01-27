@@ -209,5 +209,12 @@ $(document).ready(function() {
         $('.cinema_more').toggleClass("cinemas_show");
         $(this).toggleClass("more_show");
     });
+  jQuery(document).ready(function($) {
 
+// #preloader
+    $(window).load(function(){
+      $('#preloader').fadeOut('slow',function(){$(this).remove();});
+    });
+
+  });
 });
