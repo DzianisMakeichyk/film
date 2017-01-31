@@ -34,7 +34,7 @@
     }
 
     .cinema_shot_name {
-      flex: 1 1 60%;
+      flex: 0 0 50%;
 
       @include breakpoint(medium) {
         flex: 1 1 0;
