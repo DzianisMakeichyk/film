@@ -56,32 +56,32 @@
 
       &.kika {
         height: auto;
-        width: 100%;
         max-width: 80px;
       }
 
       @include breakpoint(medium) {
         display: block;
-        width: 100px;
+        width: 100%;
+        max-width: 100px;
         height: 100%;
         vertical-align: middle;
         padding-bottom: 15px;
       }
 
       @include breakpoint(large) {
-        width: 130px;
+        max-width: 130px;
       }
 
       @include breakpoint(extralarge) {
-        width: 170px;
+        max-width: 170px;
       }
       &.cc {
         @include breakpoint(large) {
-          width: 90px;
+          max-width: 90px;
         }
 
         @include breakpoint(extralarge) {
-          width: 110px;
+          max-width: 110px;
         }
       }
     }
